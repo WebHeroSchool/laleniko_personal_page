@@ -1,0 +1,14 @@
+{
+	"rules": {
+		"color-no-invalid-hex": [true, {"message": "hex неправильный"}],
+		"declaration-no-important": [true, {"message": "no important!"}],
+		"no-extra-semicolons": [true, {"message": "Две точки с запятой подряд"}],
+		"indentation": ["tab", {"message": "Нужно использовать tab"}],
+		"selector-type-no-unknown": [true, {"message": "Такого селектора нет"}],
+		"selector-pseudo-class-no-unknown": [true, {"message": "Такого псевдокласса нет"}],
+		"no-missing-end-of-source-newline": [true, {"message": "Любой файл должен заканчиваться пустой строкой"}],
+		"selector-max-class": [2, {"message": "Максимум два класса в селекторе"}],
+		"declaration-block-no-duplicate-properties": [true, {"message": "Правила повторять не следует"}],
+		"no-eol-whitespace": [true, {"message": "Нужно убрать пробельные символ(ы) на конце строки"}]
+	}
+}

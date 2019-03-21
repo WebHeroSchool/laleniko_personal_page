@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": "error",
+        "no-empty": "error",
+        "no-alert": "error",
+        "one-var": ["error", "never"],
+        "max-params": ["error", 3],
+        "quotes": ["error", "single"],
+        "strict": ["error", "global"],
+        "no-debugger": "error",
+        "no-dupe-args": "error",
+        "valid-typeof": "error"
+    }
+}
