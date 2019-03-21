@@ -129,7 +129,7 @@ gulp.task('browser-sync', () => {
 
     gulp.watch(paths.src.styles, ['cssMove-watch']);
 	gulp.watch(paths.src.scripts, ['jsMove-watch']);
-	gulp.watch(paths.src.templates, ['compile-watch']);
+	gulp.watch(paths.templates, ['compile-watch']);
 });
 
 gulp.task('cssMove-watch', ['cssMove'], () => browserSync.reload());
